@@ -7,3 +7,8 @@
 <p>
   The project has been dealt as an "effective" binary (2-class) classification problem and as an "effective" multiclass (4-class) problem. The origianl problem pertains to a 7-class classification problem. The reduction logic as well as other details are present in the respective notebooks.
 </p>
+
+<h2>INTERACTIVE NOTEBOOKS</h2>
+
+  1. [Effective Binary Classification]()
+  2. [Effective 4-class Classification]()
