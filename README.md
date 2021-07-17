@@ -7,7 +7,7 @@
 
 <h2>INTERACTIVE NOTEBOOKS</h2>
 
-  1. [Effective Binary Classification - Binder Link](https://mybinder.org/v2/gh/Tirthankar-Dutta-2016/dlm-clf-coswara-c19/1b8b41d7f3071f6469b7131c93e388a10a670ea4)
+  1. [Effective Binary Classification (deep learning) Model - Binder Link](https://mybinder.org/v2/gh/Tirthankar-Dutta-2016/dlm-clf-coswara-c19/1b8b41d7f3071f6469b7131c93e388a10a670ea4)
 
 ### NOTE: Do not run the interactive notebooks on [Binder](https://mybinder.org) as training the deep learning models are very slow.
 
