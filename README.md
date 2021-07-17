@@ -2,15 +2,17 @@
 
 <h2>DEEP LEARNING MODEL OF COSWARA PROJECT'S COVID-19 DATASET</h2>
 <p>
-  This work conforms to an assignment whose objective is to build a deep learning model using the Coswara project's Covid-19 dataset. I have focussed mainly on data analysis and data processing rather than building a very well performing (properly tuned) deep learning model solely to confirm the repeated statement (by many data scientists) that a well studied and processed dataset can often override the requirement of hypertuning of machine learning models. And they are right!!
-</p>
-<p>
-  The project has been dealt as an "effective" binary (2-class) classification problem and as an "effective" multiclass (4-class) problem. The origianl problem pertains to a 7-class classification problem. The reduction logic as well as other details are present in the respective notebooks.
+  This work conforms to an assignment whose objective is to build a deep learning model using the Coswara project's Covid-19 dataset. This is bascially a multiclass classification problem wherein the target variable called "covid_status" consists of 7-classes. Due to time crunch, I have reduced this 7-class classification task to an "effc=ective" 2-class (binary) classification task. Due to heavy class imbalance even in the "effective" binary problem, I have resorted to the use of the <code>SMOTENN</code> class from the <code>combine</code> module of the <code>imbalanced-learn</code> library. 
 </p>
 
 <h2>INTERACTIVE NOTEBOOKS</h2>
 
-  1. [Effective Binary Classification - Binder Link](https://mybinder.org/v2/gh/Tirthankar-Dutta-2016/dlm-clf-coswara-c19/7298394b4fd9d3f67fe96430e0f22d9c7e3053f6)
-  2. [Effective 4-class Classification - Binder Link]()
+  1. [Effective Binary Classification - Binder Link]()
 
 ### NOTE: Do not run the interactive notebooks on [Binder](https://mybinder.org) as training the deep learning models are very slow.
+
+<h2>TO DO LIST</h2>
+
+  1. Reduce the original 7-class classification task to a 4-class classification task and solve it using Keras deep learning library.
+  2. Approch the full 7-class classification task.
+  3. Use Pytorch to address the 2-, 4- and 7-class problems. 
