@@ -2,7 +2,7 @@
 
 <h2>DEEP LEARNING MODEL OF COSWARA PROJECT'S COVID-19 DATASET</h2>
 <p>
-  This work conforms to an assignment whose objective is to build a deep learning model using the Coswara project's Covid-19 dataset. This is bascially a multiclass classification problem wherein the target variable called "covid_status" consists of 7-classes. Due to time crunch, I have reduced this 7-class classification task to an "effc=ective" 2-class (binary) classification task. Due to heavy class imbalance even in the "effective" binary problem, I have resorted to the use of the <code>SMOTENN</code> class from the <code>combine</code> module of the <code>imbalanced-learn</code> library. 
+  This work conforms to an assignment whose objective is to build a deep learning model using the Coswara project's Covid-19 dataset. This is bascially a multiclass classification problem wherein the target variable called "covid_status" consists of 7-classes. Due to time crunch, I have reduced this 7-class classification task to an "effcective" 2-class (binary) classification task. Due to heavy class imbalance even in the "effective" binary problem, I have resorted to the use of the <code>SMOTENN</code> class from the <code>combine</code> module of the <code>imbalanced-learn</code> library. 
 </p>
 
 <h2>INTERACTIVE NOTEBOOKS</h2>
